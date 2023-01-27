@@ -4,7 +4,7 @@ function Features() {
     <ul>
       <Link to="/about">
         {" "}
-        <li>About this page</li>
+        <li>About This page</li>
       </Link>
       <li>
         <a
@@ -15,11 +15,11 @@ function Features() {
           Light/Dark Mode
         </a>
       </li>
-      <Link to="/searchbar">
-        <li>Seach Bar</li>
+      {/* <Link to="/searchbarfeature">
+        <li>Search Bar</li>
       </Link>
       <li>Modal</li>
-      <li>Photo Gallery</li>
+      <li>Photo Gallery</li> */}
     </ul>
   );
 }
