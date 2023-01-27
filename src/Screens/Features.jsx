@@ -23,16 +23,19 @@ function Features() {
             GitHub Repo
           </a>
         </div>
-        <div className="features-about-link">
-          <Link className="features-link" link to="/about">
+        <footer>
+          <div className="features-about-link">
             {" "}
-            About This page
-          </Link>
-          <Link className="features-link" link to="/">
-            {" "}
-            Back
-          </Link>
-        </div>
+            <Link className="features-link" link to="/about">
+              {" "}
+              About This Page
+            </Link>
+            <Link className="features-link" link to="/">
+              {" "}
+              Back
+            </Link>
+          </div>
+        </footer>
       </div>
     </>
   );
