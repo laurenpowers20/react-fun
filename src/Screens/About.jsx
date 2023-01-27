@@ -20,9 +20,9 @@ function About() {
           This lil' portfolio is a central place for the demos with some fun
           styling.
         </p>
-        <p>Who are you?</p>
         <p>
-          Oh me? I'm{" "}
+          {" "}
+          I'm{" "}
           <a
             href="https://laurenpowersportfolio.com/"
             target="_blank"
@@ -37,13 +37,8 @@ function About() {
             Let's collaborate!
           </a>
         </p>
-        <p style={{ textAlign: "center" }}>
-          {" "}
-          <Link className="about-link" to="/features">
-            Back
-          </Link>
-        </p>
       </article>
+      <Link to="/features">Back</Link>
     </>
   );
 }

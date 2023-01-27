@@ -15,7 +15,8 @@
   color: rgb(107, 107, 107);
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .features-link:hover {
