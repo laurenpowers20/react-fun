@@ -1,0 +1,28 @@
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.features-light-dark {
+  text-align: center;
+  justify-content: center;
+}
+
+.features-link {
+  text-decoration: none;
+  color: rgb(107, 107, 107);
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.features-link:hover {
+  color: black;
+}
+
+.features-about-link {
+  text-align: center;
+  padding: 100px;
+}
