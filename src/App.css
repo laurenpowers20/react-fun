@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Rubik+Wet+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sacramento&display=swap");
+/*
+font-family: 'Cedarville Cursive', cursive;
+font-family: 'Sacramento', cursive;
+*/
 
 .App {
   text-align: center;
@@ -23,9 +27,20 @@
   justify-content: center;
 }
 
+.home-enter-link {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.home-enter-link:hover {
+  color: gray;
+}
+
 .welcome {
-  font-family: "Cedarville Cursive", cursive;
-  font-size: 3rem;
+  font-family: "Sacramento", cursive;
+  font-size: 4rem;
 }
 
 @keyframes App-logo-spin {
@@ -34,5 +49,15 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .welcome {
+    font-size: 2.3rem;
+  }
+
+  .home-enter-link {
+    font-size: 1.5rem;
   }
 }

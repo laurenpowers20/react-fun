@@ -1,15 +1,18 @@
-import logo3 from "./images/react.png";
-import "./App.css";
 
+// import logo2 from "./images/react2.png";
+import "./App.css";
+import Features from "./Screens/Features";
+import Home from "./Screens/Home";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-      <div className="App-header">
- 
-        <h1 className="welcome">Welcome to React Fun</h1>
-        <img src={logo3} className="App-logo" alt="logo" />
-      </div>
-
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/features" element={<Features />} />
+      </Routes>
+    </>
   );
 }
 
