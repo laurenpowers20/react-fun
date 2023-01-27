@@ -1,10 +1,11 @@
 import "./Styles/About.css";
+import { Link } from "react-router-dom";
 function About() {
   return (
     <>
-      <div className="about-titles" style={{ textAlign: "center" }}>
+      <div className="about-titles">
         {" "}
-        <h1 className="welcome">My Lil' React Portfolio</h1>
+        <h1 className="about-welcome">My Lil' React Portfolio</h1>
         <h2>A small portfolio of features I've built in React.js.</h2>
       </div>
 
@@ -17,15 +18,7 @@ function About() {
         </p>
         <p>
           This lil' portfolio is a central place for the demos with some fun
-          styling. Checkout out the{" "}
-          <a
-            href="https://github.com/laurenpowers20/react-fun"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub repo
-          </a>{" "}
-          here!
+          styling.
         </p>
         <p>Who are you?</p>
         <p>
@@ -34,12 +27,21 @@ function About() {
             href="https://laurenpowersportfolio.com/"
             target="_blank"
             rel="noreferrer"
+            className="about-link"
           >
             Lauren Powers
           </a>
           . I build front-end web applications that look cool. I have a lot of
           fun with React, but I love to learn new things.{" "}
-          <a href="mailto:lauren.powers20@gmail.com">Let's collaborate!</a>
+          <a className="about-link" href="mailto:lauren.powers20@gmail.com">
+            Let's collaborate!
+          </a>
+        </p>
+        <p style={{ textAlign: "center" }}>
+          {" "}
+          <Link className="about-link" to="/features">
+            Back
+          </Link>
         </p>
       </article>
     </>
