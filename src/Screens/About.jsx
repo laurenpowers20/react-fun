@@ -8,7 +8,6 @@ function About() {
         <h1 className="about-welcome">My Lil' React Portfolio</h1>
         <h2>A small portfolio of features I've built in React.js.</h2>
       </div>
-
       <article className="about-text">
         <p>
           Ever build an app in React and need a quick feature that you know
@@ -37,8 +36,11 @@ function About() {
             Let's collaborate!
           </a>
         </p>
+    <div className="about-button">
+        <Link link="true" to="/features">
+          <button className="button-54">Back </button>
+        </Link></div>
       </article>
-      <Link to="/features">Back</Link>
     </>
   );
 }
