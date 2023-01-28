@@ -6,14 +6,15 @@ function About() {
       <div className="about-titles">
         {" "}
         <h1 className="about-welcome">My Lil' React Portfolio</h1>
-        <h2>A small portfolio of features I've built in React.js.</h2>
+        <h2 className="about-subtitle">
+          A small portfolio of features I've built in React.js.
+        </h2>
       </div>
       <article className="about-text">
         <p>
-          Ever build an app in React and need a quick feature that you know
-          you've done 100 times? Instead of digging around for that specific
-          project repository, I've compliled everything in one place for myself
-          and for you!
+          Ever built an app in React and needed a quick feature that you've done
+          100 times? Instead of digging around for that specific project
+          repository, I've compiled everything in one place for me AND you!
         </p>
         <p>
           This lil' portfolio is a central place for the demos with some fun
@@ -21,7 +22,7 @@ function About() {
         </p>
         <p>
           {" "}
-          I'm{" "}
+          About me: I'm{" "}
           <a
             href="https://laurenpowersportfolio.com/"
             target="_blank"
@@ -36,10 +37,11 @@ function About() {
             Let's collaborate!
           </a>
         </p>
-    <div className="about-button">
-        <Link link="true" to="/features">
-          <button className="button-54">Back </button>
-        </Link></div>
+        <div className="about-button">
+          <Link link="true" to="/features">
+            <button className="button-54">Back </button>
+          </Link>
+        </div>
       </article>
     </>
   );

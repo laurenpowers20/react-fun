@@ -1,15 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 /*
 font-family: 'Cedarville Cursive', cursive;
 font-family: 'Sacramento', cursive;
 */
 
 .about-text {
+  font-family: "Quicksand", sans-serif;
   width: 1000px;
   padding: 20px;
   margin: auto;
   font-size: 1.5rem;
 }
+
+.about-subtitle {
+  font-family: "Quicksand", sans-serif;
+  font-size: 2rem;
+}
+
 .about-titles {
   text-align: center;
   margin: auto;
