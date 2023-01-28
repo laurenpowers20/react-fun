@@ -4,19 +4,30 @@ function Features() {
   return (
     <>
       <div className="features-container">
-        <div className="features-light-dark">
-          <h2>Light/Dark Mode</h2>
-          <button className="button-54">
+        <div className="features-div">
+          <h2>Light/Dark Mode</h2>{" "}
+          <a
+            href="https://light-dark-mode-theme.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
             {" "}
-            <a
-              href="https://light-dark-mode-theme.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-              className="features-link"
-            >
-              Live Demo
-            </a>
-          </button>
+            <button className="button-54">Live Demo </button>
+          </a>
+          <a
+            href="https://github.com/laurenpowers20/light-dark-mode"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            <button className="button-54"> GitHub Repo </button>
+          </a>
+        </div>
+
+        {/* <div className="features-div">
+          <h2>Search Bar</h2>
+          <button className="button-54"> Live Demo</button>
           <button className="button-54">
             <a
               href="https://github.com/laurenpowers20/light-dark-mode"
@@ -27,7 +38,7 @@ function Features() {
               GitHub Repo
             </a>
           </button>
-        </div>
+        </div> */}
 
         <div className="features-about-link">
           <Link className="features-link" link to="/about">
