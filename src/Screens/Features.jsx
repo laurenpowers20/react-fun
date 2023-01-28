@@ -7,7 +7,7 @@ function Features() {
     <>
       <div className="features-container">
         <div className="features-div">
-          <h2>Light/Dark Mode</h2>{" "}
+          <h2 className="features-titles">Light/Dark Mode</h2>{" "}
           <a
             href="https://light-dark-mode-theme.netlify.app/"
             target="_blank"
@@ -28,7 +28,7 @@ function Features() {
         </div>
 
         <div className="features-div">
-          <h2>Photo Gallery With Modal</h2>{" "}
+          <h2 className="features-titles">Photo Gallery With Modal</h2>{" "}
           <a
             href="https://react-photo-gallery-lauren.netlify.app/"
             target="_blank"
