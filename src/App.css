@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Sacramento&display=swap");
 /*
 font-family: 'Cedarville Cursive', cursive;
 font-family: 'Sacramento', cursive;
@@ -36,10 +36,11 @@ font-family: 'Sacramento', cursive;
 
 .home-enter-link:hover {
   color: gray;
+  font-family: "Open Sans", sans-serif;
 }
 
 .welcome {
-  font-family: "Sacramento", cursive;
+  font-family: "Pacifico", cursive;
   font-size: 4.5rem;
 }
 

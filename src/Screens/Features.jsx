@@ -30,8 +30,9 @@ function Features() {
           </Link>
         </div>
         <div className="features-about-link">
-          <Link className="features-link" link to="/">
-            Back
+          <Link link to="/">
+            {" "}
+            <button className="button-54">Back</button>
           </Link>
         </div>
       </div>
