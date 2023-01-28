@@ -3,7 +3,7 @@ import "./App.css";
 import About from "./Screens/About";
 import Features from "./Screens/Features";
 import Home from "./Screens/Home";
-import SearchBarFeature from "./Screens/SearchBarFeature";
+
 import { Routes, Route } from "react-router-dom";
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/features" element={<Features />} />
-        <Route path="searchbarfeature" element={<SearchBarFeature />} />
       </Routes>
     </>
   );
