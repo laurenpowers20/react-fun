@@ -7,4 +7,4 @@ The fun is coming soon and evolving as we speak.
 ## References
 
 - [Cool CSS Buttons](https://getcssscan.com/css-buttons-examples)
-- [Cool Icons](https://thenounproject.com/)
+- [The Noun Project Icons](https://thenounproject.com/)
