@@ -63,4 +63,9 @@ font-family: 'Sacramento', cursive;
   .home-enter-link {
     font-size: 1.5rem;
   }
+
+  .App-logo {
+    height: 175px;
+    padding: 20px;
+  }
 }
