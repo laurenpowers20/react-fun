@@ -14,6 +14,12 @@
   font-size: 1.8rem;
 }
 
+.features-titles {
+  padding: 0;
+  padding-top: 50px;
+  margin: 0;
+}
+
 .features-link {
   display: inline-flex;
   text-decoration: none;
