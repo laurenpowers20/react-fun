@@ -11,7 +11,7 @@
   text-align: center;
   justify-content: center;
   font-family: "Pacifico", cursive;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 
 .features-link {
@@ -31,7 +31,8 @@
 .features-about-link {
   text-align: center;
   padding-top: 75px;
-  font-size: 1rem;
+  padding-bottom: 20px;
+  font-size: 1.5rem;
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
@@ -44,6 +45,6 @@
 
 @media only screen and (max-width: 700px) {
   .features-titles {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 }

@@ -15,7 +15,7 @@ function Features() {
             className="features-link"
           >
             {" "}
-            <button className="button-54">Live Demo </button>
+            <button className="button-54">Demo </button>
           </a>
           <a
             href="https://github.com/laurenpowers20/light-dark-mode"
@@ -36,10 +36,31 @@ function Features() {
             className="features-link"
           >
             {" "}
-            <button className="button-54">Live Demo </button>
+            <button className="button-54">Demo </button>
           </a>
           <a
             href="https://github.com/laurenpowers20/photo-gallery-react"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            <button className="button-54"> GitHub Repo </button>
+          </a>
+        </div>
+
+        <div className="features-div">
+          <h2 className="features-titles">Simple Slide Show</h2>{" "}
+          <a
+            href="https://curious-cajeta-71b06a.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            {" "}
+            <button className="button-54">Demo </button>
+          </a>
+          <a
+            href="https://github.com/laurenpowers20/react-slide-show"
             target="_blank"
             rel="noreferrer"
             className="features-link"
