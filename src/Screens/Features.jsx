@@ -69,6 +69,27 @@ function Features() {
           </a>
         </div>
 
+        <div className="features-div">
+          <h2 className="features-titles">Hamburger Menu</h2>{" "}
+          <a
+            href="https://rococo-creponne-b55eb4.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            {" "}
+            <button className="button-54">Demo </button>
+          </a>
+          <a
+            href="https://github.com/laurenpowers20/hambuger-menu"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            <button className="button-54"> GitHub Repo </button>
+          </a>
+        </div>
+
         <div className="features-back-button">
           <Link link to="/">
             {" "}
