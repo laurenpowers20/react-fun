@@ -28,7 +28,7 @@ function Features() {
         </div>
 
         <div className="features-div">
-          <h2 className="features-titles">Photo Gallery With Modal</h2>{" "}
+          <h2 className="features-titles">Photo Gallery w/ Modal</h2>{" "}
           <a
             href="https://react-photo-gallery-lauren.netlify.app/"
             target="_blank"
@@ -89,25 +89,24 @@ function Features() {
             <button className="button-54"> GitHub Repo </button>
           </a>
         </div>
-
-        <div className="features-back-button">
-          <Link link to="/">
+      </div>
+      <div className="features-back-button">
+        <Link link to="/">
+          {" "}
+          <button className="button-54">Back</button>
+        </Link>
+      </div>
+      <footer>
+        <div className="features-about-link">
+          <div>
+            <img src={about1} style={{ height: "30px" }} alt="about icon" />
+          </div>
+          <Link className="features-link" link to="/about">
             {" "}
-            <button className="button-54">Back</button>
+            About This Page
           </Link>
         </div>
-        <footer>
-          <div className="features-about-link">
-            <div>
-              <img src={about1} style={{ height: "30px" }} alt="about icon" />
-            </div>
-            <Link className="features-link" link to="/about">
-              {" "}
-              About This Page
-            </Link>
-          </div>
-        </footer>
-      </div>
+      </footer>
     </>
   );
 }
