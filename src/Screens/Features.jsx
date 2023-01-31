@@ -99,7 +99,7 @@ function Features() {
       <footer>
         <div className="features-about-link">
           <div>
-            <img src={about1} style={{ height: "30px" }} alt="about icon" />
+            <img src={about1} style={{ height: "50px" }} alt="about icon" />
           </div>
           <Link className="features-link" link to="/about">
             {" "}
