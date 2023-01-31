@@ -28,7 +28,7 @@ function Features() {
         </div>
 
         <div className="features-div">
-          <h2 className="features-titles">Photo Gallery w/ Modal</h2>{" "}
+          <h2 className="features-titles">Gallery w/ Modal</h2>{" "}
           <a
             href="https://react-photo-gallery-lauren.netlify.app/"
             target="_blank"
