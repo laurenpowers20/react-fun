@@ -15,7 +15,7 @@ function Features() {
             className="features-link"
           >
             {" "}
-            <button className="button-54">Demo </button>
+            <button className="button-54">Demo</button>
           </a>
           <a
             href="https://github.com/laurenpowers20/light-dark-mode"
@@ -89,6 +89,27 @@ function Features() {
             <button className="button-54"> GitHub Repo </button>
           </a>
         </div>
+
+        <div className="features-div">
+          <h2 className="features-titles">Search Bar</h2>{" "}
+          <a
+            href="https://preeminent-chimera-ed9406.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            {" "}
+            <button className="button-54">Demo </button>
+          </a>
+          <a
+            href="https://github.com/laurenpowers20/search-bar"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            <button className="button-54"> GitHub Repo </button>
+          </a>
+        </div>
       </div>
       <div className="features-back-button">
         <Link link to="/">
@@ -98,11 +119,11 @@ function Features() {
       </div>
       <footer>
         <div className="features-about-link">
-          <div>
-            <img src={about1} style={{ height: "50px" }} alt="about icon" />
-          </div>
           <Link className="features-link" link to="/about">
             {" "}
+            <div style={{ padding: "15px" }}>
+              <img src={about1} style={{ height: "50px" }} alt="about icon" />
+            </div>
             About This Page
           </Link>
         </div>

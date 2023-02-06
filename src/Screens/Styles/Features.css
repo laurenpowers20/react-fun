@@ -66,4 +66,10 @@
   .features-about-link {
     font-size: 2rem;
   }
+  .features-div {
+    width: 360px;
+    -webkit-box-shadow: 10px 10px 15px -2px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 15px -2px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 15px -2px rgba(0, 0, 0, 0.75);
+  }
 }
