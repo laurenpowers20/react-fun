@@ -10,7 +10,6 @@ function Features() {
           <h2 className="features-titles">Light/Dark Mode</h2>{" "}
           <a
             href="https://light-dark-mode-theme.netlify.app/"
-            target="_blank"
             rel="noreferrer"
             className="features-link"
           >
@@ -31,7 +30,6 @@ function Features() {
           <h2 className="features-titles">Gallery w/ Modal</h2>{" "}
           <a
             href="https://react-photo-gallery-lauren.netlify.app/"
-            target="_blank"
             rel="noreferrer"
             className="features-link"
           >
@@ -52,7 +50,6 @@ function Features() {
           <h2 className="features-titles">Simple Slide Show</h2>{" "}
           <a
             href="https://curious-cajeta-71b06a.netlify.app/"
-            target="_blank"
             rel="noreferrer"
             className="features-link"
           >
@@ -73,7 +70,6 @@ function Features() {
           <h2 className="features-titles">Hamburger Menu</h2>{" "}
           <a
             href="https://rococo-creponne-b55eb4.netlify.app/"
-            target="_blank"
             rel="noreferrer"
             className="features-link"
           >
@@ -94,7 +90,6 @@ function Features() {
           <h2 className="features-titles">Search Bar</h2>{" "}
           <a
             href="https://preeminent-chimera-ed9406.netlify.app/"
-            target="_blank"
             rel="noreferrer"
             className="features-link"
           >
