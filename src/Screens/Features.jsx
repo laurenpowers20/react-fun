@@ -105,6 +105,26 @@ function Features() {
             <button className="button-54"> GitHub Repo </button>
           </a>
         </div>
+
+        <div className="features-div">
+          <h2 className="features-titles">Form</h2>{" "}
+          <a
+            href="https://pizza-form-react.netlify.app/"
+            rel="noreferrer"
+            className="features-link"
+          >
+            {" "}
+            <button className="button-54">Demo </button>
+          </a>
+          <a
+            href="https://github.com/laurenpowers20/pizza-form"
+            target="_blank"
+            rel="noreferrer"
+            className="features-link"
+          >
+            <button className="button-54"> GitHub Repo </button>
+          </a>
+        </div>
       </div>
       <div className="features-back-button">
         <Link link to="/">
