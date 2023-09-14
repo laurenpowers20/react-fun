@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <div className="App-header">
-        <h1 className="welcome">My Lil' React Portfolio</h1>
+        <h1 className="welcome">My React Portfolio</h1>
         <img src={logo1} className="App-logo" alt="logo" />
         <Link link="true" className="home-enter-link" to="/features">
           <button className="button-54"> ENTER</button>
